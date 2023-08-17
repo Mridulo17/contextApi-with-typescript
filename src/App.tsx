@@ -1,5 +1,6 @@
 import AddToDo from "./components/AddToDo"
 import Navbar from "./components/Navbar"
+import Practise from "./components/Practise"
 import Todos from "./components/Todos"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <AddToDo />
       <Todos />
+      <Practise />
     </main>
   )
 }
